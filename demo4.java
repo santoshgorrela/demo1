@@ -1,8 +1,6 @@
 public class Banner {
 
     public static void main(String[] args) {
-
-        // Define a String array with 7 lines
         String[] lines = new String[7];
 
         // Populate each index with banner lines using String.join()
@@ -13,8 +11,6 @@ public class Banner {
         lines[4] = String.join("", "  **  **  ", "    ** ");
         lines[5] = String.join("", "  **  **  ", " **   ");
         lines[6] = String.join("", "   ***    ", " ***** ");
-
-        // Use a for-each loop to print each line
         for (String line : lines) {
             System.out.println(line);
         }
